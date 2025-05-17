@@ -75,3 +75,21 @@ a {
 img {
     background-color: transparent;
 }
+
+.logo {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo>img {
+    width: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo>div {
+    flex-grow: 1;
+    transform: translateX(-70px);
+}
