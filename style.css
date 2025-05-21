@@ -93,3 +93,7 @@ img {
     flex-grow: 1;
     transform: translateX(-70px);
 }
+
+h3 {
+    text-align: center;
+}
