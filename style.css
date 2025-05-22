@@ -43,6 +43,9 @@ form textarea {
     padding: 10px 10px 10px 0px;
     margin-bottom: 10px;
     resize: vertical;
+}
+
+textarea {
     height: 100px;
 }
 
@@ -93,8 +96,4 @@ img {
 .logo>div {
     flex-grow: 1;
     transform: translateX(-70px);
-}
-
-h3 {
-    text-align: center;
 }
