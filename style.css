@@ -99,3 +99,7 @@ img {
     flex-grow: 1;
     transform: translateX(-70px);
 }
+
+main {
+    color: gainsboro;
+}
