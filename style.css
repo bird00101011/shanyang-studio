@@ -103,3 +103,25 @@ img {
 main {
     color: gainsboro;
 }
+
+:root {
+    --blogTitle: "山羊工作室";
+    --blogWord: "有缘人，你怎么才来？"
+}
+
+#blogTitle::before {
+    content: var(--blogTitle);
+}
+
+#blogWord::before {
+    content: var(--blogWord)
+}
+
+pre {
+    white-space: pre-wrap;
+    /* 保留空格和换行，同时允许自动换行 */
+    word-wrap: break-word;
+    /* 防止单词超出容器宽度 */
+    overflow-wrap: break-word;
+    /* 兼容更多浏览器 */
+}
