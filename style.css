@@ -106,7 +106,7 @@ main {
 
 :root {
     --blogTitle: "山羊工作室";
-    --blogWord: "有缘人，你怎么才来？"
+    --blogWord: "用技术落地项目，用合伙共创未来"
 }
 
 #blogTitle::before {
@@ -124,4 +124,15 @@ pre {
     /* 防止单词超出容器宽度 */
     overflow-wrap: break-word;
     /* 兼容更多浏览器 */
+}
+
+p,
+ul {
+    font-size: 13px;
+    font-family: monospace;
+}
+
+#blogWord,
+footer>p {
+    all: revert;
 }
